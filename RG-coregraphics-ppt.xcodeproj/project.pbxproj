@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC63D3C0257EC9C600C8DC47 /* CombineLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63D3BE257EC9C600C8DC47 /* CombineLayerViewController.swift */; };
+		BC63D3C1257EC9C600C8DC47 /* CombineLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC63D3BF257EC9C600C8DC47 /* CombineLayerViewController.xib */; };
+		BC63D3C7257F3B3F00C8DC47 /* CGDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63D3C5257F3B3F00C8DC47 /* CGDemoViewController.swift */; };
+		BC63D3C8257F3B3F00C8DC47 /* CGDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC63D3C6257F3B3F00C8DC47 /* CGDemoViewController.xib */; };
+		BC63D3CD257F3F1800C8DC47 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63D3CC257F3F1800C8DC47 /* DrawView.swift */; };
+		BCE67564257D3693004ABC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE67563257D3693004ABC09 /* AppDelegate.swift */; };
+		BCE67566257D3693004ABC09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE67565257D3693004ABC09 /* SceneDelegate.swift */; };
+		BCE67568257D3693004ABC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE67567257D3693004ABC09 /* ViewController.swift */; };
+		BCE6756D257D3694004ABC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE6756C257D3694004ABC09 /* Assets.xcassets */; };
+		BCE67570257D3694004ABC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE6756E257D3694004ABC09 /* LaunchScreen.storyboard */; };
+		BCE6757B257D3694004ABC09 /* RG_coregraphics_pptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6757A257D3694004ABC09 /* RG_coregraphics_pptTests.swift */; };
+		BCE67586257D3694004ABC09 /* RG_coregraphics_pptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE67585257D3694004ABC09 /* RG_coregraphics_pptUITests.swift */; };
+		BCE6759E257D53B4004ABC09 /* HomeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6759C257D53B3004ABC09 /* HomeSelectViewController.swift */; };
+		BCE6759F257D53B4004ABC09 /* HomeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE6759D257D53B4004ABC09 /* HomeSelectViewController.xib */; };
+		BCE675A8257D5493004ABC09 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675A6257D5493004ABC09 /* TopicTableViewCell.swift */; };
+		BCE675A9257D5493004ABC09 /* TopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE675A7257D5493004ABC09 /* TopicTableViewCell.xib */; };
+		BCE675AE257D5A3E004ABC09 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675AD257D5A3E004ABC09 /* Line.swift */; };
+		BCE675B3257D5A84004ABC09 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675B2257D5A84004ABC09 /* Canvas.swift */; };
+		BCE675B9257D5ABC004ABC09 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675B7257D5ABC004ABC09 /* CanvasViewController.swift */; };
+		BCE675BA257D5ABC004ABC09 /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE675B8257D5ABC004ABC09 /* CanvasViewController.xib */; };
+		BCE675CD257D6114004ABC09 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675CC257D6114004ABC09 /* ImageFilter.swift */; };
+		BCE675D3257D61F0004ABC09 /* BitmapFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE675D1257D61F0004ABC09 /* BitmapFilterViewController.swift */; };
+		BCE675D4257D61F0004ABC09 /* BitmapFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE675D2257D61F0004ABC09 /* BitmapFilterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE67577257D3694004ABC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE67558257D3693004ABC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE6755F257D3693004ABC09;
+			remoteInfo = "RG-coregraphics-ppt";
+		};
+		BCE67582257D3694004ABC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE67558257D3693004ABC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE6755F257D3693004ABC09;
+			remoteInfo = "RG-coregraphics-ppt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC63D3BE257EC9C600C8DC47 /* CombineLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLayerViewController.swift; sourceTree = "<group>"; };
+		BC63D3BF257EC9C600C8DC47 /* CombineLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CombineLayerViewController.xib; sourceTree = "<group>"; };
+		BC63D3C5257F3B3F00C8DC47 /* CGDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGDemoViewController.swift; sourceTree = "<group>"; };
+		BC63D3C6257F3B3F00C8DC47 /* CGDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGDemoViewController.xib; sourceTree = "<group>"; };
+		BC63D3CC257F3F1800C8DC47 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		BCE67560257D3693004ABC09 /* RG-coregraphics-ppt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RG-coregraphics-ppt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE67563257D3693004ABC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE67565257D3693004ABC09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCE67567257D3693004ABC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE6756C257D3694004ABC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE6756F257D3694004ABC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE67571257D3694004ABC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE67576257D3694004ABC09 /* RG-coregraphics-pptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RG-coregraphics-pptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE6757A257D3694004ABC09 /* RG_coregraphics_pptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RG_coregraphics_pptTests.swift; sourceTree = "<group>"; };
+		BCE6757C257D3694004ABC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE67581257D3694004ABC09 /* RG-coregraphics-pptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RG-coregraphics-pptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE67585257D3694004ABC09 /* RG_coregraphics_pptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RG_coregraphics_pptUITests.swift; sourceTree = "<group>"; };
+		BCE67587257D3694004ABC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE6759C257D53B3004ABC09 /* HomeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSelectViewController.swift; sourceTree = "<group>"; };
+		BCE6759D257D53B4004ABC09 /* HomeSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSelectViewController.xib; sourceTree = "<group>"; };
+		BCE675A6257D5493004ABC09 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		BCE675A7257D5493004ABC09 /* TopicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicTableViewCell.xib; sourceTree = "<group>"; };
+		BCE675AD257D5A3E004ABC09 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		BCE675B2257D5A84004ABC09 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		BCE675B7257D5ABC004ABC09 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		BCE675B8257D5ABC004ABC09 /* CanvasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
+		BCE675CC257D6114004ABC09 /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		BCE675D1257D61F0004ABC09 /* BitmapFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapFilterViewController.swift; sourceTree = "<group>"; };
+		BCE675D2257D61F0004ABC09 /* BitmapFilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BitmapFilterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE6755D257D3693004ABC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE67573257D3694004ABC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE6757E257D3694004ABC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE67557257D3693004ABC09 = {
+			isa = PBXGroup;
+			children = (
+				BCE67562257D3693004ABC09 /* RG-coregraphics-ppt */,
+				BCE67579257D3694004ABC09 /* RG-coregraphics-pptTests */,
+				BCE67584257D3694004ABC09 /* RG-coregraphics-pptUITests */,
+				BCE67561257D3693004ABC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE67561257D3693004ABC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE67560257D3693004ABC09 /* RG-coregraphics-ppt.app */,
+				BCE67576257D3694004ABC09 /* RG-coregraphics-pptTests.xctest */,
+				BCE67581257D3694004ABC09 /* RG-coregraphics-pptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE67562257D3693004ABC09 /* RG-coregraphics-ppt */ = {
+			isa = PBXGroup;
+			children = (
+				BCE675C6257D60FB004ABC09 /* Common */,
+				BCE6759B257D5381004ABC09 /* Model */,
+				BCE6759A257D537A004ABC09 /* Controller */,
+				BCE67599257D5367004ABC09 /* View */,
+				BCE67563257D3693004ABC09 /* AppDelegate.swift */,
+				BCE67565257D3693004ABC09 /* SceneDelegate.swift */,
+				BCE67567257D3693004ABC09 /* ViewController.swift */,
+				BCE6756C257D3694004ABC09 /* Assets.xcassets */,
+				BCE6756E257D3694004ABC09 /* LaunchScreen.storyboard */,
+				BCE67571257D3694004ABC09 /* Info.plist */,
+			);
+			path = "RG-coregraphics-ppt";
+			sourceTree = "<group>";
+		};
+		BCE67579257D3694004ABC09 /* RG-coregraphics-pptTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE6757A257D3694004ABC09 /* RG_coregraphics_pptTests.swift */,
+				BCE6757C257D3694004ABC09 /* Info.plist */,
+			);
+			path = "RG-coregraphics-pptTests";
+			sourceTree = "<group>";
+		};
+		BCE67584257D3694004ABC09 /* RG-coregraphics-pptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE67585257D3694004ABC09 /* RG_coregraphics_pptUITests.swift */,
+				BCE67587257D3694004ABC09 /* Info.plist */,
+			);
+			path = "RG-coregraphics-pptUITests";
+			sourceTree = "<group>";
+		};
+		BCE67599257D5367004ABC09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCE675A6257D5493004ABC09 /* TopicTableViewCell.swift */,
+				BCE675A7257D5493004ABC09 /* TopicTableViewCell.xib */,
+				BCE675B2257D5A84004ABC09 /* Canvas.swift */,
+				BC63D3CC257F3F1800C8DC47 /* DrawView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCE6759A257D537A004ABC09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCE6759C257D53B3004ABC09 /* HomeSelectViewController.swift */,
+				BCE6759D257D53B4004ABC09 /* HomeSelectViewController.xib */,
+				BCE675B7257D5ABC004ABC09 /* CanvasViewController.swift */,
+				BCE675B8257D5ABC004ABC09 /* CanvasViewController.xib */,
+				BCE675D1257D61F0004ABC09 /* BitmapFilterViewController.swift */,
+				BCE675D2257D61F0004ABC09 /* BitmapFilterViewController.xib */,
+				BC63D3BE257EC9C600C8DC47 /* CombineLayerViewController.swift */,
+				BC63D3BF257EC9C600C8DC47 /* CombineLayerViewController.xib */,
+				BC63D3C5257F3B3F00C8DC47 /* CGDemoViewController.swift */,
+				BC63D3C6257F3B3F00C8DC47 /* CGDemoViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCE6759B257D5381004ABC09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCE675AD257D5A3E004ABC09 /* Line.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCE675C6257D60FB004ABC09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BCE675CC257D6114004ABC09 /* ImageFilter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE6755F257D3693004ABC09 /* RG-coregraphics-ppt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE6758A257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-ppt" */;
+			buildPhases = (
+				BCE6755C257D3693004ABC09 /* Sources */,
+				BCE6755D257D3693004ABC09 /* Frameworks */,
+				BCE6755E257D3693004ABC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RG-coregraphics-ppt";
+			productName = "RG-coregraphics-ppt";
+			productReference = BCE67560257D3693004ABC09 /* RG-coregraphics-ppt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE67575257D3694004ABC09 /* RG-coregraphics-pptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE6758D257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-pptTests" */;
+			buildPhases = (
+				BCE67572257D3694004ABC09 /* Sources */,
+				BCE67573257D3694004ABC09 /* Frameworks */,
+				BCE67574257D3694004ABC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE67578257D3694004ABC09 /* PBXTargetDependency */,
+			);
+			name = "RG-coregraphics-pptTests";
+			productName = "RG-coregraphics-pptTests";
+			productReference = BCE67576257D3694004ABC09 /* RG-coregraphics-pptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE67580257D3694004ABC09 /* RG-coregraphics-pptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE67590257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-pptUITests" */;
+			buildPhases = (
+				BCE6757D257D3694004ABC09 /* Sources */,
+				BCE6757E257D3694004ABC09 /* Frameworks */,
+				BCE6757F257D3694004ABC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE67583257D3694004ABC09 /* PBXTargetDependency */,
+			);
+			name = "RG-coregraphics-pptUITests";
+			productName = "RG-coregraphics-pptUITests";
+			productReference = BCE67581257D3694004ABC09 /* RG-coregraphics-pptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE67558257D3693004ABC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BCE6755F257D3693004ABC09 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					BCE67575257D3694004ABC09 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BCE6755F257D3693004ABC09;
+					};
+					BCE67580257D3694004ABC09 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = BCE6755F257D3693004ABC09;
+					};
+				};
+			};
+			buildConfigurationList = BCE6755B257D3693004ABC09 /* Build configuration list for PBXProject "RG-coregraphics-ppt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE67557257D3693004ABC09;
+			productRefGroup = BCE67561257D3693004ABC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE6755F257D3693004ABC09 /* RG-coregraphics-ppt */,
+				BCE67575257D3694004ABC09 /* RG-coregraphics-pptTests */,
+				BCE67580257D3694004ABC09 /* RG-coregraphics-pptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE6755E257D3693004ABC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE67570257D3694004ABC09 /* LaunchScreen.storyboard in Resources */,
+				BCE675D4257D61F0004ABC09 /* BitmapFilterViewController.xib in Resources */,
+				BCE675A9257D5493004ABC09 /* TopicTableViewCell.xib in Resources */,
+				BCE6759F257D53B4004ABC09 /* HomeSelectViewController.xib in Resources */,
+				BCE6756D257D3694004ABC09 /* Assets.xcassets in Resources */,
+				BC63D3C1257EC9C600C8DC47 /* CombineLayerViewController.xib in Resources */,
+				BCE675BA257D5ABC004ABC09 /* CanvasViewController.xib in Resources */,
+				BC63D3C8257F3B3F00C8DC47 /* CGDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE67574257D3694004ABC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE6757F257D3694004ABC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE6755C257D3693004ABC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE675CD257D6114004ABC09 /* ImageFilter.swift in Sources */,
+				BCE675B9257D5ABC004ABC09 /* CanvasViewController.swift in Sources */,
+				BCE675B3257D5A84004ABC09 /* Canvas.swift in Sources */,
+				BCE675A8257D5493004ABC09 /* TopicTableViewCell.swift in Sources */,
+				BCE675D3257D61F0004ABC09 /* BitmapFilterViewController.swift in Sources */,
+				BCE67568257D3693004ABC09 /* ViewController.swift in Sources */,
+				BCE6759E257D53B4004ABC09 /* HomeSelectViewController.swift in Sources */,
+				BCE675AE257D5A3E004ABC09 /* Line.swift in Sources */,
+				BC63D3CD257F3F1800C8DC47 /* DrawView.swift in Sources */,
+				BCE67564257D3693004ABC09 /* AppDelegate.swift in Sources */,
+				BC63D3C0257EC9C600C8DC47 /* CombineLayerViewController.swift in Sources */,
+				BCE67566257D3693004ABC09 /* SceneDelegate.swift in Sources */,
+				BC63D3C7257F3B3F00C8DC47 /* CGDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE67572257D3694004ABC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE6757B257D3694004ABC09 /* RG_coregraphics_pptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE6757D257D3694004ABC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE67586257D3694004ABC09 /* RG_coregraphics_pptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE67578257D3694004ABC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE6755F257D3693004ABC09 /* RG-coregraphics-ppt */;
+			targetProxy = BCE67577257D3694004ABC09 /* PBXContainerItemProxy */;
+		};
+		BCE67583257D3694004ABC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE6755F257D3693004ABC09 /* RG-coregraphics-ppt */;
+			targetProxy = BCE67582257D3694004ABC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE6756E257D3694004ABC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE6756F257D3694004ABC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE67588257D3694004ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE67589257D3694004ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE6758B257D3694004ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-ppt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-ppt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE6758C257D3694004ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-ppt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-ppt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE6758E257D3694004ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-pptTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-pptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RG-coregraphics-ppt.app/RG-coregraphics-ppt";
+			};
+			name = Debug;
+		};
+		BCE6758F257D3694004ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-pptTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-pptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RG-coregraphics-ppt.app/RG-coregraphics-ppt";
+			};
+			name = Release;
+		};
+		BCE67591257D3694004ABC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-pptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-pptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RG-coregraphics-ppt";
+			};
+			name = Debug;
+		};
+		BCE67592257D3694004ABC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "RG-coregraphics-pptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "richard-test.RG-coregraphics-pptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RG-coregraphics-ppt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE6755B257D3693004ABC09 /* Build configuration list for PBXProject "RG-coregraphics-ppt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE67588257D3694004ABC09 /* Debug */,
+				BCE67589257D3694004ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE6758A257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-ppt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE6758B257D3694004ABC09 /* Debug */,
+				BCE6758C257D3694004ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE6758D257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-pptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE6758E257D3694004ABC09 /* Debug */,
+				BCE6758F257D3694004ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE67590257D3694004ABC09 /* Build configuration list for PBXNativeTarget "RG-coregraphics-pptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE67591257D3694004ABC09 /* Debug */,
+				BCE67592257D3694004ABC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE67558257D3693004ABC09 /* Project object */;
+}
